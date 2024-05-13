@@ -115,7 +115,7 @@ public class CallBackService
 
 					response.put("result", "1");
 					Tbl_Player sendPlayerLink = playerRepository.findByMsisdn(ani);
-					String gameurl = "https://www.gameninja.in/html/gv1/wingameT/index.html?userid="+sendPlayerLink.getId()+"&gameId=1";
+					String gameurl = "https://www.gameninja.in/html/gv1/wingameNewMTNSA/index.html?userid="+sendPlayerLink.getId()+"&gameId=1";
 					
 					response.put("msisdn",gameurl);
 				}
