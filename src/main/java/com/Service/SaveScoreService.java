@@ -43,7 +43,7 @@ public class SaveScoreService
 			response="Success";
 			System.out.println("Score Saved:::");
 			
-			saveAirtimeData(player.getMsisdn(),request.getGameId(),request.getScore(),request.getUserid());
+			saveAirtimeData(player.getMsisdn(),"1",request.getScore(),request.getUserid());
 		}
 		catch (Exception e) {
 			// TODO: handle exception
