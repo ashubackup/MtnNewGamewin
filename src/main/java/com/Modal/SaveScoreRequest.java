@@ -18,6 +18,6 @@ public class SaveScoreRequest
 	
 	private String userid;
 	private String score;
-	private String gameId;
-	private LocalDateTime datetime;
+//	private String gameId;
+//	private LocalDateTime datetime;
 }

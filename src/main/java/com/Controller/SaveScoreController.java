@@ -23,6 +23,7 @@ public class SaveScoreController
 		String response = "Failed";
 		try
 		{
+			System.out.println("SaveScore Request "+body);
 			response=saveScoreService.scoreService(body);
 		}
 		catch (Exception e) {
