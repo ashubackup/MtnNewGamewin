@@ -33,7 +33,7 @@ public class SaveScoreService
 		String response = "Failed";
 		try
 		{
-			Tbl_Player player = playerRepository.findByIdAndGameid(Integer.parseInt(request.getUserid()),request.getGameId());
+			Tbl_Player player = playerRepository.findByIdAndGameid(Integer.parseInt(request.getUserid()),"1");
 			TblSaveScore saveScore = new TblSaveScore();
 			saveScore.setAni(player.getMsisdn());
 			saveScore.setGameId("1");
